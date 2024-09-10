@@ -1,5 +1,5 @@
-const ProductDetails = () => {
-  return <div>ProductDetails</div>;
+const ProductDetails = ({id}) => {
+  return <div>ProductDetails cscas{`${id}`}</div>;
 };
 
 export default ProductDetails;
